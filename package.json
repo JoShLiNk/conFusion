@@ -1,14 +1,16 @@
 {
   "name": "confusion",
   "version": "1.0.0",
-  "description": "Boostrap ",
-  "main": "index.js",
+  "description": "This is a website for Ristorante Con Fusion",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
-  "author": "Josue Gutierrez",
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
+    "devDependencies": {
+    "lite-server": "^2.3.0"
   }
 }
